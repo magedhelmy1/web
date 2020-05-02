@@ -3,7 +3,7 @@ title: Why Designing Transparent AI Matters?
 author: Maged Helmy
 date: 2020-01-05 14:00:00 +0100
 categories: [Blogging, Articles]
-tags: [AI]     # TAG names should always be lowercase
+tags: [ai]     # TAG names should always be lowercase
 ---
 ## Building a fair algorithm in an unfair society  
 
@@ -70,7 +70,7 @@ Deep Neural Networks (DNN), which are a subset of AI, is behind the majority of 
 <p>It is essential to highlight that the current solutions provided by the tech industries to deal with the black box phenomena addresses the symptoms but not the issue directly. Moreover, due to the tradition of how the industry is built, companies argue that the trade secrets will be lost if algorithms are made available for the public to scrutinize. However, it is essential to note that current regulations do not allow the deploying or usage of such high performing algorithms as it has proven to be discriminant and sexist. Therefore, at the current stage, an acceptable AI will be a transparent, interpretable, and auditable AI.</p>
 </div>
 <div style="text-align: justify ">
-<p>Since the current high performing algorithm is not capable of satisfying the social and judicial expectations, a ‘watered-down’ transparent version of AI can be implemented. Algorithms transparency and accountability must be high on the agenda of AI implementers as it is the only way to gain a competitive advantage when the regulations come into force. AI implementers should understand that technologies should be made to combat discrimination and injustice and not merely reinforce human prejudices and social unfairness.</p> 
+<p>Since the current high performing algorithm is not capable of satisfying the social and judicial expectations, a ‘watered-down’ transparent version of AI can be implemented. Algorithms transparency and accountability must be high on the agenda of AI implementers as it is the only way to gain a competitive advantage when the regulations come into force. AI implementers should understand that technologies should be made to combat discrimination and injustice and not merely reinforce human prejudices and social unfairness.</p>
 </div>
 
 ### Get in Touch
