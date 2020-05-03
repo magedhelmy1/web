@@ -3,7 +3,7 @@ title: Why Designing Transparent AI Matters?
 author: Maged Helmy
 date: 2020-01-05 14:00:00 +0100
 categories: [Blogging, Articles]
-tags: [ai]     # TAG names should always be lowercase
+tags: [ai]
 ---
 ## Building a fair algorithm in an unfair society  
 
