@@ -7,11 +7,11 @@ tags: [ai]
 ---
 ## Building a fair algorithm in an unfair society  
 
-### **Abstract**:
+### **Abstract**
 <div style="text-align: justify ">
 Although Artificial Intelligence (AI) has proven to have great potential in many industrial applications [1]–[3], research lacks sufficient methods to adequately interpret and decode the internal logic of such high performing algorithms [4]. Highly performing algorithms suffer from the black-box phenomenon where the calculations cannot be validated, and the methodology behind the algorithm cannot be verified [5]. This poses several ethical challenges since such systems can reflect or amplify the existing biases of its implementers and the dataset leading to discrimination against minorities and may repel society from using such promising technologies. In this article, we argue that using AI technology without the appropriate assessment and understanding of how it arrives at its decisions outweighs the benefits and can harm the individuals and society.
 </div> <br/>
-### **Background**:
+### **Background**
 
 <div style="text-align: justify ">
 Deep Neural Networks (DNN), which are a subset of AI, is behind the majority of the recent successes in AI [6]. DNN can outperform a human expert in an infinitely large amount of datasets and can make more informed decisions in a shorter period [7]. For example, a DNN that is trained to diagnose cancer can be more accurate and faster than a radiologist with a Ph.D. [8]. However, these algorithms are highly complex, where the relationship between the data (input) and the conclusion (output) is uninterpretable [9]. Such algorithms pose an ethical challenge since they may inherit biases from human prejudices, which can lead to unfair decisions [5]. In light of this ethical challenge, we will present some examples of ethical dilemmas that may arise from using such high performing black box AI-based systems in decision-making processes that can have a significant impact on an individual’s human rights.
@@ -59,7 +59,7 @@ Deep Neural Networks (DNN), which are a subset of AI, is behind the majority of 
 <div style="text-align: justify ">
 <p>One can argue that the competitive advantage will belong to the companies that prioritize and prove an interpretable and auditable algorithm rather than the companies with the highest performing opaque algorithms. When the tech race is switched from the highest performing algorithm to the most interpretable and auditable algorithm, such technologies may start to gain the public trust.</p>
 </div>
-### *Conclusion:*
+### *Conclusion*
 <div style="text-align: justify ">
 <p>AI, and specifically deep learning, has proven to outperform human experts in their domain fields. However, such high performing algorithms come at the cost of interpretability where higher-performing algorithms are less interpretable then their lower-performing counterparts. This is due to the nature of how deep neural networks are built. The ethical dilemma is whether to use these high performing algorithms at the expense of interpretability, auditability, and transparency. </p>
 </div>
@@ -77,11 +77,6 @@ Deep Neural Networks (DNN), which are a subset of AI, is behind the majority of 
 
 Feel free to get in touch anywhere, anytime ! <br/>
 [LinkedIn](https://www.linkedin.com/in/helmy47/) or Email me directly maged.helmy1@outlook.com <br/>
-
-### Top contributors to this article
-
-- Maged Helmy
-
 
 
 To contribute, simple create a pull request on the Github page! :)
