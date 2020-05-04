@@ -7,16 +7,16 @@ tags: [ai]
 ---
 ## Building a fair algorithm in an unfair society  
 
-**Abstract**:
+### **Abstract**:
 <div style="text-align: justify ">
 Although Artificial Intelligence (AI) has proven to have great potential in many industrial applications [1]–[3], research lacks sufficient methods to adequately interpret and decode the internal logic of such high performing algorithms [4]. Highly performing algorithms suffer from the black-box phenomenon where the calculations cannot be validated, and the methodology behind the algorithm cannot be verified [5]. This poses several ethical challenges since such systems can reflect or amplify the existing biases of its implementers and the dataset leading to discrimination against minorities and may repel society from using such promising technologies. In this article, we argue that using AI technology without the appropriate assessment and understanding of how it arrives at its decisions outweighs the benefits and can harm the individuals and society.
 </div> <br/>
-**Background**:
+### **Background**:
 
 <div style="text-align: justify ">
 Deep Neural Networks (DNN), which are a subset of AI, is behind the majority of the recent successes in AI [6]. DNN can outperform a human expert in an infinitely large amount of datasets and can make more informed decisions in a shorter period [7]. For example, a DNN that is trained to diagnose cancer can be more accurate and faster than a radiologist with a Ph.D. [8]. However, these algorithms are highly complex, where the relationship between the data (input) and the conclusion (output) is uninterpretable [9]. Such algorithms pose an ethical challenge since they may inherit biases from human prejudices, which can lead to unfair decisions [5]. In light of this ethical challenge, we will present some examples of ethical dilemmas that may arise from using such high performing black box AI-based systems in decision-making processes that can have a significant impact on an individual’s human rights.
 </div> <br/>
-*I. Interpretability in AI*
+### *I. Interpretability in AI*
 
 <div style="text-align: justify ">
 <p>An interpretable AI is an algorithm that can be explainable by its implementers to society and individuals (i.e., regulatory, customers, employees). For instance, the algorithmic patterns of how the conclusion has been reached are calculable and verifiable. Many high performing DNNs are not able to present the logic of the outcome due to the depth of the networks, and trying to simplify the network to gain interpretability will significantly reduce accuracy [10]. Furthermore, an interpretable algorithm will allow audibility where an algorithm can be reviewed, tested, and refined to reflect the moral codes and principles of society. However, the literature proves that auditable algorithms have reduced performance and, in many cases, minimal functionalities [11]–[13]. Some examples of commonly used algorithms where performance and interpretability correlates are GoogLeNet [14] with 6.7 million parameters and VGGNet [15] with 138 million parameters. Therefore, an ethical dilemma is using these deep neural networks that are capable of highly sophisticated functionalities like analyzing video, audio, and texts in an uninterpretable manner, versus using an interpretable algorithm with minimal functionally and low accuracy. How much accuracy and features are we willing to sacrifice to satisfy the transparency dilemma?</p>
@@ -36,7 +36,7 @@ Deep Neural Networks (DNN), which are a subset of AI, is behind the majority of 
 <div style="text-align: justify ">
 <p>One can argue if society is even ready to adopt such high performing algorithms when direct manipulation (in the case of ICE) or indirect human bias (in the case of Amazon) can have adverse effects on individuals? Society has witnessed the devastating effects of similar technologies[28], [29], amongst others, the atomic bomb, and the AK-47 (responsible for more deaths than any other rifle due to the cheap mass production design[30]). As of the evidence we have, one can conclude that an interpretable & auditable AI algorithm is inevitably more beneficial than a high performing algorithm that is not interpretable nor auditable.</p>
 </div>
-*II. Solutions that work, kind of.*
+### *II. Solutions that work, kind of.*
 <div style="text-align: justify ">
 <p>Tech leaders like Facebook and Microsoft are investing heavily in developing tools that attempt to tackle biases in DNNs while trying to maintain all the functionalities in a high performing algorithm[31] - however useful, this does not reveal the black box but merely tries to solve the symptoms of the problem. Moreover, companies should understand that this challenge requires more than a technical fix. For example, the lack of diversity amongst the teams building the technology, and collecting the dataset makes it more challenging to overcome biases. Human biases and prejudice implicitly gets reflected in the data collected [32]. Therefore, tech companies should also invest in educating the developers, programmers, and the data collectors to understand the moral principles and consequences that may result from developing such technologies solely based on results and profit. Moreover, companies should invest more in transparent AI to make it possible to scrutinize the logic and accustomed it to social and judicial expectations.</p>
 </div>
@@ -46,7 +46,7 @@ Deep Neural Networks (DNN), which are a subset of AI, is behind the majority of 
 <div style="text-align: justify ">
 <p>To conclude, by favoring a transparent AI approach over a highly functional one, it will encourage AI implements to first understand the technology more thoroughly before implementing it. This may in turn reduce unpropitious consequences. </p>
 </div>
-*III. Wait...What about Companies Competitive Advantage?*
+### *III. Wait...What about Companies Competitive Advantage?*
 <div style="text-align: justify ">
 <p>Companies trade secrets can be lost if the algorithms are open for the public to test and scrutinize. Companies can also lose their competitive advantage if the logic gets replicated by other companies in countries where trade secrets and protection are not enforced or even applicable. However, when it comes to AI, nearly all tech leaders like Google [35] and Facebook [36] have open-sourced their AI technology. While debatable on why the tech leaders decided to do that, up to this day, regulations of applying AI have no satisfactory legal terms where companies can disclose their algorithms without harming their competitive advantages since the law stresses the auditability of the algorithm [37]. Therefore, as more companies thrive to open-source their AI technology to the public, this will inevitably increase the public trust in such emerging technology.</p>
 </div>
@@ -59,7 +59,7 @@ Deep Neural Networks (DNN), which are a subset of AI, is behind the majority of 
 <div style="text-align: justify ">
 <p>One can argue that the competitive advantage will belong to the companies that prioritize and prove an interpretable and auditable algorithm rather than the companies with the highest performing opaque algorithms. When the tech race is switched from the highest performing algorithm to the most interpretable and auditable algorithm, such technologies may start to gain the public trust.</p>
 </div>
-*Conclusion:*
+### *Conclusion:*
 <div style="text-align: justify ">
 <p>AI, and specifically deep learning, has proven to outperform human experts in their domain fields. However, such high performing algorithms come at the cost of interpretability where higher-performing algorithms are less interpretable then their lower-performing counterparts. This is due to the nature of how deep neural networks are built. The ethical dilemma is whether to use these high performing algorithms at the expense of interpretability, auditability, and transparency. </p>
 </div>
