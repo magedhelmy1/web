@@ -10,7 +10,7 @@ tags: [computer_vision, deep_learning]
 
 The goal of this essay is to describe the top 7 promising approaches in generic object detection of still images including the problem they aim to tackle, the methodology applied, the results and to discuss these approaches. We start off by briefly introducing object detection and then dive into the description of the selected architectures.
 
-### *1.	Introduction*
+### **1.	Introduction**
 
 Object detection architecture aims to estimate the location and the label of an object in an image [1]. Object detection techniques can generally be split into two distinct categories. Firstly, the two-step method aims to first locate the object in the image (object localization) and then estimates the category of the object (object-classification) [2]. These architectures can be referred to as the Region Proposal Based Framework. Secondly, the one-step method directly aims to locate and categorize the objects at one go. These architectures are known as the Unified Framework [3]. The topic of this essay will describe 7 selected architectures from the Region Proposal Based Framework.
 
@@ -65,7 +65,7 @@ R-CNN is a big step towards building a high-quality object detection architectur
 Such disadvantages have led to the development of successors such as SPPNet, Fast RCNN, Faster RCNN, R-FCN, FPN, and Mask R-CNN.
 
 
-### *Paper 2: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition* [24]
+### **Paper 2: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition** [24]
 
 #### Problem
 As highlighted in the abstract of the paper, this method introduces two changes to the existing R-CNN architecture. First, it aims to tackle the challenge of having a fixed-size window for the fully connected layer by forcing arbitrary images to fit into this window via cropping or warping since important information can be lost or distorted leading to the reduction of accuracy. Secondly, SPPnet computes the feature maps for the image ones instead of repeatedly computing it on each RoI region as the R-CNN.
@@ -103,7 +103,7 @@ Figure 2. Paper 3-  Fast RCNN
 
 
 
-### *Paper 3: Fast R-CNN* [26]
+### **Paper 3: Fast R-CNN** [26]
 
 #### Problem
 This paper aims to address the problems that arise from the SPPnet and R-CNN architectures. To the date of the publication of this paper in 2015, object detection methods required first, to generate several hundred regions known as “proposals” to generate a feature map, second, the proposals generated were an estimate of the localization. These two joint challenges reduced speed and accuracy and increased complexity.
@@ -135,7 +135,7 @@ Figure 3. Faster RCNN
 
 
 
-### *Paper 4: Faster r-cnn: Towards real-time object detection with region proposal networks* [28]
+### **Paper 4: Faster r-cnn: Towards real-time object detection with region proposal networks** [28]
 
 #### Problem
 Optimizations introduced by SPP and Fast R-CNN have exposed the fact that using external region proposal methods slows down the process. Previous networks mainly rely on Selective Search (SS) [23] and Edge box [29] to create region proposals. This paper introduces Region Proposal Network (RPN) which aims to replace the SS and Edge box. The RPN introduces an almost cost-free computation for proposal computation.
@@ -158,7 +158,7 @@ In parallel to the impressive results Faster R-CNN has achieved, two researchers
 
 
 
-### *Paper 5: R-FCN: Object Detection via Region-based Fully Convolutional Networks* [31]
+### **Paper 5: R-FCN: Object Detection via Region-based Fully Convolutional Networks** [31]
 
 #### Problem
 In a traditional sense, Faster R-CNN generated regions using RPN first, then ROI pooling and passing it to the FC layer. The processes that came after the ROI pooling were not shareable, meaning that these steps had to be reapplied for each ROI. In R-FCN, the RPN region proposals exist, but different from the R-CNN, the FC layers after the pooling are removed. This prevents having learnable layers after the pooling allowing computational sharing of the network. Moreover, in Faster RCNN, each region proposal had to be cropped and resized to be fed into the Fast RCNN network. The RFCN attempts to speed up the network by converting this process into fully convolutional. It aims to swap the costly per-region subnetworks with a folly convolutional one thus allowing the computation to be shared across the whole image. Moreover, the authors of the paper aim to tackle the dilemma between invariance in image classification and  the variance for object detection brought by GoogLeNets[32] and Residual Nets (ResNets) [33]
@@ -180,7 +180,7 @@ In basic terms, the RFCN is a Faster-RCNN which is fully convolutional. This int
 
 
 
-### *Paper 6: Feature pyramid networks for object detection* [34]
+### **Paper 6: Feature pyramid networks for object detection** [34]
 
 #### Problem
 This method was designed to address an issue with Faster RCNN. Faster RCNN was generally made to address the scale-invariant problem introduced by Fast RCNN.  The Faster RCNN takes in an input image and resizes it accordingly. This means that the network had to run on the image several times with different box sizes making it slow. The Feature Pyramid Network (FPN) deals with these different scales while maintaining the speed. The FPN is an extension of Faster RCNN, in the same manner that R-FCN is an extension of the Faster RCNN.
@@ -199,7 +199,7 @@ Images have objects with different scales which makes it challenging to detect t
 
 
 
-### *Paper 7: Mask-RCNN* [35]
+### **Paper 7: Mask-RCNN** [35]
 
 #### Problem
 This method extends Faster R-CNN by adding another layer to predict the object mask in parallel with the existing bounding box layer. This is a framework that enables instance segmentation on a state-of-art level.
