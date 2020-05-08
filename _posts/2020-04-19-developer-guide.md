@@ -3,9 +3,9 @@ title: A Code Reviewer Guide to Code Review
 author: Maged Helmy
 date: 2020-04-19 14:00:00 +0100
 categories: [Blogging, Articles]
-tags: [developer_guide]
+tags: [code_reviewer_guide]
 ---
-## ** Introduction **
+## Introduction
 This article aims to present the code reviewer developer guide adopted by Google. The goal of having code reviews is to maintain the quality of the code, and ultimately the product. A code review process can be described as a person examining a code other than the author of the code.
 
 ## **How to do a code review ?**
