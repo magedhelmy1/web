@@ -35,7 +35,21 @@ Week 2:
 -	Interleaving: Jump between related materials to get an overall picture
 
 Week 3:
-
+How to deal with Procrastination?
+-	The system to deal with procrastination is to map it out into this system
+o	Cue – What triggers procrastination?
+o	Routine – What routine do you automatically go in when cue is triggered?
+o	Reward – How can you replace that with a reward?
+o	Belief – Does that fit your belief system of achieving the work?
+-	Find out what triggers your procrastination via the cue. Is it getting too tired? is it the clock After you understand that see if it’s possible to eliminate it, if not, understand the Routine you get into? Gaming, social media…etc. Ones you mapped out the Cue and the routine. Start to derive an alternative plan of reward that fits your belief more, so you are in control of your time.
+-	If it is 5oclock and you start getting tired, get a break and start doing some exercise for example. By combining 50 minutes with 10-minute break. Have a longer 2-hour break during 5pm time just to reset your energy and change your environment. By rewiring your habits slowly, you will be able to harness your procrastination for relaxing in a way that fits your working purpose.
+-	Focus on the process and not the product. The brain works best if you harness your energy into focusing on the process rather than the product. Think about this way, I have 55 minutes to solve the problem, rather than I have 2 years to complete my Ph.D. This helps putting the energy in the moment rather than waste it is wondering on the future and the long run.
+-	Always start with the hard task, since that is where you must focus the energy first.
+-	Practice makes practice, repeat again on a different day in a different environment.
+-	Turn abstract concepts in computing to real images you can think about via association learning
+-	Learning has nothing to do with speed, take your time and understand the concept so it solidifies in your brain
+-	Solving a problem is a journey, enjoy the process
+-	When facing a hard problem, spend a solid 10 to 15 minutes trying to bash at it, then walk away and try again before looking at the solution.
 
 Here is a nice paper by Barbara summarizing all her key concepts:
 https://barbaraoakley.com/wp-content/uploads/2018/02/10-Top-Ideas-to-Help-Your-Learning-and-10-Pitfalls-1.pdf
