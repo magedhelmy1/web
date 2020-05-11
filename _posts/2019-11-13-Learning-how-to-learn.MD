@@ -3,7 +3,7 @@ title: Learning How to Learn
 author: Maged Helmy
 date: 2019-11-13 11:00:00 +0100
 categories: [Blogging, Articles]
-tags: [algorithmic thinking]
+tags: [studying_strategies]
 ---
 
 Learning how to Learn:
