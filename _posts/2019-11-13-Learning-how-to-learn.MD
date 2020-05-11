@@ -51,5 +51,21 @@ o	Belief – Does that fit your belief system of achieving the work?
 -	Solving a problem is a journey, enjoy the process
 -	When facing a hard problem, spend a solid 10 to 15 minutes trying to bash at it, then walk away and try again before looking at the solution.
 
+Week 4:
+How to become a better learner:
+-	Physical exercise is better than the best drug to help you learn
+-	Learn using metaphor and analogy. The more visual the better. They are vitally important to understand the central concept you are learning. Ones you understand it, feel free to throw the metaphor away.
+-	Learning does not progress linearly; your brain needs time to build brain foundation. There are periods where you will be absorbing a lot and other times It takes much longer to assimilate new knowledge. This will feel that you took a step back but, your brain is re-constructing a stronger foundation.
+-	You don’t learn how to swing in a day. Instead it takes weeks for your muscle to gain muscle memory to give that smooth swing. Ones you develop a good swing, you can go faster and do it off memory. You do not necessarily have to go the long way of saying the metaphor and decrypting it. And that is the beauty of practice makes perfect.
+-	During critical times, your conscious mind shuts down and allow your experienced “unconscious mind” to take over. This will rely on deliberate training and practice and the hours you have put in to solidify your experience.
+-	You can enhance neural connection by practicing those neurons
+-	Have the flexible ability to look beyond the material, get your hands wet with the actual data and practice instead of gazing at it, and sneak off and learn new things.
+-	People will always criticize you no matter what you do, have the ability to tune those people who undercut you. And it is way too common to have competitive people that undercut you.
+-	Use your ability and natural talents for your further gain of understanding, rather than to demean yourself.
+-	Perseverance is the gift of the not so smart to get smart.
+-	Change your perspective to deep breathing from your tummy and say, “This problem is exciting”. This might help reduce the stress hormones
+-	Always go back to check your work, to get a mental breath and that helps use different parts of the brain.
+
+
 Here is a nice paper by Barbara summarizing all her key concepts:
 https://barbaraoakley.com/wp-content/uploads/2018/02/10-Top-Ideas-to-Help-Your-Learning-and-10-Pitfalls-1.pdf
