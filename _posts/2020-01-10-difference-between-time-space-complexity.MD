@@ -3,7 +3,7 @@ title: Understanding Time and Space Complexity for Algorithm Performance
 author: Maged Helmy
 date: 2020-01-10 11:00:00 +0100
 categories: [Blogging, Articles]
-tags: [algorithmic thinking]
+tags: [data_structure_and_algorithms]
 ---
 ## Introduction
 

@@ -3,7 +3,7 @@ title: Introduction to Algorithms and Data Structure
 author: Maged Helmy
 date: 2019-10-14 14:00:00 +0100
 categories: [Blogging, Articles]
-tags: [data_structure]
+tags: [data_structure_and_algorithms]
 ---
 
 Data Structure & Algorithms Introduction:

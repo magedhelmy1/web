@@ -3,7 +3,7 @@ title: Introduction to Sorting Techniques
 author: Maged Helmy
 date: 2020-05-09 14:00:00 +0100
 categories: [Blogging, Articles]
-tags: [sorting_techniques]
+tags: [data_structure_and_algorithms]
 ---
 
 Sorting Techniques:
