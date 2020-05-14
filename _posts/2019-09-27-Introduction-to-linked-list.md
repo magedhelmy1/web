@@ -1,7 +1,7 @@
 ---
-title: Introduction to Sorting Techniques
+title: Introduction to Linked List
 author: Maged Helmy
-date: 2020-05-09 14:00:00 +0100
+date: 2019-09-27 14:00:00 +0100
 categories: [Blogging, Articles]
 tags: [linked_lists]
 ---
