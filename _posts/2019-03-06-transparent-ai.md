@@ -1,7 +1,7 @@
 ---
 title: Why Designing Transparent AI Matters?
 author: Maged Helmy
-date: 2020-02-06 14:00:00 +0100
+date: 2019-03-06 14:00:00 +0100
 categories: [Blogging, Articles]
 tags: [ai]
 ---

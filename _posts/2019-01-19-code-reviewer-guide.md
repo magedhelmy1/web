@@ -1,7 +1,7 @@
 ---
 title: A Code Reviewer Guide to Code Review
 author: Maged Helmy
-date: 2020-04-19 14:00:00 +0100
+date: 2019-01-19 14:00:00 +0100
 categories: [Blogging, Articles]
 tags: [code_reviewer_guide]
 ---

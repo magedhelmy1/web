@@ -1,7 +1,7 @@
 ---
-title: Introduction to Linked List
+title: Linked List
 author: Maged Helmy
-date: 2019-09-27 14:00:00 +0100
+date: 2018-07-01 14:00:00 +0100
 categories: [Blogging, Articles]
 tags: [data_structure_and_algorithms]
 ---
