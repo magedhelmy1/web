@@ -56,3 +56,6 @@ o	The pivot should divide the list where all elements smaller than it should go 
 
 How to calculate the asymptotic time complexity of the above algorithms?
 Generally, by calculating how many times a statement will execute when the data doubles.  WE calculate the rate of growth of time in respect to the input size.
+
+## Merge Sort
+The input array is divided several times, sorted and then they are combined and merged back together. That is O(nlog(n)) in time complexity which is known as linearithmic. It is the same with best, average or worse scenario since the amount of operations are still the same. For space complexity, the number of levels represents the recursion, if we double the data, we need one more level of recursion, therefore, the stack will increase logarithmically. So the stack has O(log n) space complexity but the auxiliary array has O(n) linear space complexity, since you need temporary stacks to hold the array. Since linear complexity is bigger, than the space complexity of merge sort is linear.
