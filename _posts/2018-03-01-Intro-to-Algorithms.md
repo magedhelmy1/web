@@ -1,5 +1,5 @@
 ---
-title: Intro to Data Structures and Algorithms
+title: What are Algorithms?
 author: Maged Helmy
 date: 2018-03-01 14:00:00 +0100
 categories: [Blogging, Articles]
