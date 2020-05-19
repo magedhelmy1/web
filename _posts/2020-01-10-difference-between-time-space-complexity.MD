@@ -5,28 +5,9 @@ date: 2020-01-10 11:00:00 +0100
 categories: [Blogging, Articles]
 tags: [data_structure_and_algorithms]
 ---
-## Introduction
-
-There can be several ways to implement a for-loop of an if-statement when programming in python. There are also several ways in which these algorithms can be designed to interact with each other. But how do we measure the performance of these different implementations ? This is where we consider the time complexity and space complexity of the algorithms implemented. In case of time complexity, this will specifically measure the impact of more data vs the time it needs to execute the function. In case of space complexity, this will measure the impact of more data vs the amount of memory required to execute the function. We take a look at three examples, the linear search, the quicksort and the mergesort. The goal of any algorithmic design is to have the shortest time and take the least amount of space as possible.
-
-## Time Complexity
-Time complexity quantifies the amount of time it takes by the algorithm to run as a function of its input length, n. The order of growth is the correlation between time and length of the input. If the length increases by x amount, how much more time does it take ?
-
-The time complexity of an algorithm can be expressed using the following asymptotic notations.
-
-O-notation: (pronounced “big-oh of g of n”): Denotes the asymptotic upper bound (An asymptotic line is a line that gets closer and closer to a curve as the distance gets closer to infinity.) for a given function.
-
-\Omega()-notation: (pronounced “big-omega of g of n”): Denote the asymptotic lower bound for a given function.
-
-\Theta()-notation:(pronounced “big-theta of g of n”): Denotes the asymptotic tight bound for a given function.
-
-When considering time complexity, we look at the O-notation since it gives as the upper limit of execution. Generally, Big O Notation is the language we use to describe the complexity of an algorithm. Big O notation talks about how quickly the runtime grows in relative to the input. For instance, "runtime grows on the order of the size of the input O(n)" or "on the order of the square of the size of the input (O(N^2))"
 
 
-## Space Complexity
-Space complexity quantifies the amount of memory the algorithm needs to execute as a function of its input length, n. Space complexity includes both auxiliary space and space used by the input. Space complexity is commonly expressed using the Big O notation.
 
-The auxiliary space is the temporary space the algorithm needs while getting executed.
 
 ## For the linear search:
 
