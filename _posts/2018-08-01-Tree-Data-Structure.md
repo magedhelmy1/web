@@ -159,7 +159,7 @@ Check visualization here for practice https://www.cs.usfca.edu/~galles/visualiza
 
 A spanning tree is a subset of graph G which has all the vertices covered with minimum possible number of edges. A spanning tree does not have cycles and cannot be disconnected. Every connected and undirected graph G has at least one spanning tree. A disconnected graph does not have any spanning tree, as it cannot be spanned to all its vertices. N^N-2  to get the number of spanning trees, where n is the number of nodes. Thus, we can conclude that the spanning trees are a subset of connected graph G and disconnected graphs do not have spanning tree. Also a single graph can have more than one spanning tree.
 
-![tree11]({{ "/assets/img/sample/spanning.PNG" | relative_url }})
+![tree12]({{ "/assets/img/sample/spanning.PNG" | relative_url }})
 
 Properties of spanning tree:
 
@@ -185,7 +185,7 @@ Heap: is a special case of a balanced binary tree data structure where the root-
 
 - The max-heap is where the value of the root node is greater than or equal to either of its children. Best demonstrated with a diagram
 
-![tree12]({{ "/assets/img/sample/heap.PNG" | relative_url }})
+![tree13]({{ "/assets/img/sample/heap.PNG" | relative_url }})
 
 Binary heap is good for getting values larger or lower than a certain value. Binary heap are best when designing priority queues.
 
