@@ -81,7 +81,7 @@ Traversing is the process of searching the nodes on a tree. We traverse a tree t
 
 -	In order traversal: As the name suggests, you take the leftmost subtree, then the next tree, in this case the root node, then the right subtree. In other words, the left subtree is visited first, then the root and later the right subtree. The output will produce sorted key values in an ascending order. D → B → E → A → F → C → G
 
-![tree2]({{ "/assets/img/sample/in_order_traversal.png" | relative_url }})
+![tree2]({{ "/assets/img/sample/2.PNG" | relative_url }})
 
 -	Pre-order traversal: As the name suggests, you visit the root firstm then the left-subtree and its children, the right subtree and its children. In other words, The root node is visited first, then the left subtree and finally the right subtree. A → B → D → E → C → F → G
 
@@ -152,7 +152,7 @@ The AVL trees are more balanced compared to Red-Black Trees, but they may cause 
 
 Check visualization here for practice https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
 
-![tree11]({{ "/assets/img/sample/black_tree.png" | relative_url }})
+![tree11]({{ "/assets/img/sample/blacktree.png" | relative_url }})
 
 
 ## Spanning Tree
