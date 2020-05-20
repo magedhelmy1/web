@@ -94,7 +94,7 @@ Traversing is the process of searching the nodes on a tree. We traverse a tree t
 
 ## AVL (Adelson, Velski & Landis) Tree
 
-The worst-case scenario of a BST is closest to linear search algorithms, that is O(n). If the input comes  in a non-increasing manner, or a non-decreasing manner as follows:
+The goal is to always have a balanced binary tree since the worst-case scenario of a BST is closest to linear search algorithms, that is O(n). If the input comes  in a non-increasing manner, or a non-decreasing manner as follows:
 
 ![tree5]({{ "/assets/img/sample/BST_worse.PNG" | relative_url }})
 
@@ -127,6 +127,33 @@ Right-Left Rotation: The second type of double rotation is Right-Left Rotation. 
 
 ![tree10]({{ "/assets/img/sample/right_left.PNG" | relative_url }})
 
+## Red Black Tree
+
+Red black tree is another method to deal with unbalanced binary trees.
+In a red black tree:
+
+- A node is either red or black
+- The root and leaves (NIL) are black
+- If a node is red, then its children are black
+- All paths from the a node to its NIL descendats contain the same number of black nodes
+- Nodes require one storage bit to keep track of color
+- Every path from a node (including root) to any of its descendant NULL node has the same number of black nodes.
+- No red-red parent-child
+
+The goal of rotation is to alter the structure of a tree by rearranging subtreees. In this way we decrease the height of the tree.
+
+Red Black Trees are used in most of the language libraries like map, multimap, multiset in C++ whereas AVL trees are used in databases where faster retrievals are required.
+
+- AVL trees are more rigidly balanced and hence provide faster look-ups. Thus for a look-up intensive task use an AVL tree.
+- For an insert intensive tasks, use a Red-Black tree.
+- AVL trees store the balance factor at each node. This takes O(N) extra space. However, if we know that the keys that will be inserted in the tree will always be greater than zero, we can use the sign bit of the keys to store the colour information of a red-black tree. Thus, in such cases red-black tree takes no extra space.
+
+The AVL trees are more balanced compared to Red-Black Trees, but they may cause more rotations during insertion and deletion. So if your application involves many frequent insertions and deletions, then Red Black trees should be preferred. And if the insertions and deletions are less frequent and search is a more frequent operation, then AVL tree should be preferred over Red-Black Tree.
+
+Check visualization here for practice https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
+
+![tree11]({{ "/assets/img/sample/black_tree.png" | relative_url }})
+
 
 ## Spanning Tree
 
@@ -150,7 +177,7 @@ A spanning tree is used to find the minimum path to connect all nodes in a graph
 
 Minimum Spanning Tree (MST): In a weighted graph, a minimum spanning tree is a spanning tree that has minimum weight than all other spanning trees of the same graph. Spanning tree examples are Kruskals algorithm and Prims algorithm which are examples of greedy algorithms.
 
-## Heap
+## Binary Heap
 
 Heap: is a special case of a balanced binary tree data structure where the root-node key is compared with its children and arranged accordingly. There are two types of heap, the min-heap and the max-heap.
 
@@ -160,4 +187,10 @@ Heap: is a special case of a balanced binary tree data structure where the root-
 
 ![tree12]({{ "/assets/img/sample/heap.PNG" | relative_url }})
 
+Binary heap is good for getting values larger or lower than a certain value. Binary heap are best when designing priority queues.
+
+There is no concept of balancing in a binary heap, since they always maintain a binary by organizing it in order. The binary heap always gives a gurantee that the parent is greater than the children. In a normal queue, the method is FIFO. In a priority queue with a binary heap, some elements have a higher priority than others. For example, treating the patients with the most severe symptoms. The only downside is when you have a high value coming at the end, then you have to bubble up the value by comparing it to each node in the tree
+
 ## Trie
+
+Trie is a specialized tree used for searching strings. The root node is empty. It can have multiple chidren and not just binary. Trie is also called prefix tree. It is useful for autocompletion and text completion.
