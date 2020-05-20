@@ -10,7 +10,7 @@ tags: [data_structure_and_algorithms]
 
 A tree presents the nodes connected by edges. Binary tree is a special data structure used for data storage purposes. A binary tree has a special condition that each node can have a maximum of two children. A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted array and insertion or deletion operation are as in linked list.
 
-![tree1]({{"/assets/img/sample/tree.PNG" | relative_url }})
+![tree1]({{"/assets/img/sample/trees.PNG" | relative_url }})
 
 A binary search tree is better than hash table in some cases because it preserves the relationship between your data.
 
