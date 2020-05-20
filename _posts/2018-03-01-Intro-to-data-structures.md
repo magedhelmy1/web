@@ -31,3 +31,7 @@ Time Complexity − Running time or the execution time of operations of data str
 Space Complexity − Memory usage of a data structure operation should be as little as possible.
 
 We cover the Time Complexity and Space Complexity in more details in the BigO article.
+
+Summary diagram of Data Structure Big O notations
+
+![sort9]({{"/assets/img/sample/data_sum.PNG" | relative_url }})
