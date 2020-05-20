@@ -10,7 +10,7 @@ tags: [data_structure_and_algorithms]
 
 A tree presents the nodes connected by edges. Binary tree is a special data structure used for data storage purposes. A binary tree has a special condition that each node can have a maximum of two children. A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted array and insertion or deletion operation are as in linked list.
 
-![tree1]({{ "/assets/img/sample/tree.png" | relative_url }})
+![tree1]({{"/assets/img/sample/tree.png" | relative_url }})
 
 Important Terms:
 
@@ -25,9 +25,24 @@ Important Terms:
 -	Levels: Level of a node represents the generation of a node.
 -	Key represents a value of a node based on which a search operation is to be carried out for a node.
 
+```
+Level 0: 2^0 = 1;
+Level 1: 2^1 = 2;
+Level 2: 2^2 = 4;
+Level 3: 2^3 = 8;
+
+# of nodes =  2^h - 1;
+log nodes = height
+
+In binary tree, we do not check every node. But we look at certain places due to how binary search tree are organized.
+```
+
 ## Binary Search Tree
 
 A binary search tree exibiits a special behaviour where its node’s left child must have a value less than its parents value and the nodel right child must have a value greater than its parent value.
+
+A Binary Search Tree is O(log n). To find the number of nodes in a perfect binary tree. We do the following:
+
 
 A Binary Search Tree (BST) is a tree in which all the nodes follow the below-mentioned properties −
 
@@ -133,7 +148,7 @@ A spanning tree is used to find the minimum path to connect all nodes in a graph
 
 Minimum Spanning Tree (MST): In a weighted graph, a minimum spanning tree is a spanning tree that has minimum weight than all other spanning trees of the same graph. Spanning tree examples are Kruskals algorithm and Prims algorithm which are examples of greedy algorithms.
 
-# Heap
+## Heap
 
 Heap: is a special case of a balanced binary tree data structure where the root-node key is compared with its children and arranged accordingly. There are two types of heap, the min-heap and the max-heap.
 
@@ -142,3 +157,5 @@ Heap: is a special case of a balanced binary tree data structure where the root-
 - The max-heap is where the value of the root node is greater than or equal to either of its children. Best demonstrated with a diagram
 
 ![tree12]({{ "/assets/img/sample/heap.png" | relative_url }})
+
+## Trie
