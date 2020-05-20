@@ -10,7 +10,9 @@ tags: [data_structure_and_algorithms]
 
 A tree presents the nodes connected by edges. Binary tree is a special data structure used for data storage purposes. A binary tree has a special condition that each node can have a maximum of two children. A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted array and insertion or deletion operation are as in linked list.
 
-![tree1]({{"/assets/img/sample/tree.png" | relative_url }})
+![tree1]({{"/assets/img/sample/tree.PNG" | relative_url }})
+
+A binary search tree is better than hash table in some cases because it preserves the relationship between your data.
 
 Important Terms:
 
@@ -79,27 +81,27 @@ Traversing is the process of searching the nodes on a tree. We traverse a tree t
 
 -	In order traversal: As the name suggests, you take the leftmost subtree, then the next tree, in this case the root node, then the right subtree. In other words, the left subtree is visited first, then the root and later the right subtree. The output will produce sorted key values in an ascending order. D → B → E → A → F → C → G
 
-![tree2]({{ "/assets/img/sample/in_order_traversal.png" | relative_url }})
+![tree2]({{ "/assets/img/sample/in_order_traversal.PNG" | relative_url }})
 
 -	Pre-order traversal: As the name suggests, you visit the root firstm then the left-subtree and its children, the right subtree and its children. In other words, The root node is visited first, then the left subtree and finally the right subtree. A → B → D → E → C → F → G
 
-![tree3]({{ "/assets/img/sample/pre_order.png" | relative_url }})
+![tree3]({{ "/assets/img/sample/pre_order.PNG" | relative_url }})
 
 -	Post-order traversal: The leafs are visited first then the root of that (sub)tree. First, we traverse the left subtree, then the right subtree and finally the root node. It visits all the leafs before going into the root. D → E → B → F → G → C → A
 
-![tree4]({{ "/assets/img/sample/post_order.png" | relative_url }})
+![tree4]({{ "/assets/img/sample/post_order.PNG" | relative_url }})
 
 
 ## AVL (Adelson, Velski & Landis) Tree
 
 The worst-case scenario of a BST is closest to linear search algorithms, that is O(n). If the input comes  in a non-increasing manner, or a non-decreasing manner as follows:
 
-![tree5]({{ "/assets/img/sample/BST_worse.png" | relative_url }})
+![tree5]({{ "/assets/img/sample/BST_worse.PNG" | relative_url }})
 
 
  AVL is a height balancing tree where it checks the height of the left and right sub-tress and assures that the difference is not more than 1. This difference is called the balance factor. If the difference in the height of left and right subtree is more than 1, the tree is balanced using some rotation techniques.
 
- ![tree6]({{ "/assets/img/sample/imbalance.png" | relative_url }})
+ ![tree6]({{ "/assets/img/sample/imbalance.PNG" | relative_url }})
 
 To balane itself, there are 4 types of AVL rotations:
 
@@ -110,27 +112,27 @@ To balane itself, there are 4 types of AVL rotations:
 
 Left Rotation: Move the middle node and make it a root node, since it is the middle valye between A and C.
 
-![tree7]({{ "/assets/img/sample/left_rotation.png" | relative_url }})
+![tree7]({{ "/assets/img/sample/left_rotation.PNG" | relative_url }})
 
 
 Right Rotation:Same method as above, by making the middle node, a root node, and converting the root node into leaf with the other leaf, then you get a balanced tree.
 
-![tree8]({{ "/assets/img/sample/right_rotation.png" | relative_url }})
+![tree8]({{ "/assets/img/sample/right_rotation.PNG" | relative_url }})
 
 Left-right rotation: You do double rotations.  A left-right rotation is a combination of left rotation followed by right rotation.
 
-![tree9]({{ "/assets/img/sample/left_right.png" | relative_url }})
+![tree9]({{ "/assets/img/sample/left_right.PNG" | relative_url }})
 
 Right-Left Rotation: The second type of double rotation is Right-Left Rotation. It is a combination of right rotation followed by left rotation.
 
-![tree10]({{ "/assets/img/sample/right_left.png" | relative_url }})
+![tree10]({{ "/assets/img/sample/right_left.PNG" | relative_url }})
 
 
 ## Spanning Tree
 
 A spanning tree is a subset of graph G which has all the vertices covered with minimum possible number of edges. A spanning tree does not have cycles and cannot be disconnected. Every connected and undirected graph G has at least one spanning tree. A disconnected graph does not have any spanning tree, as it cannot be spanned to all its vertices. N^N-2  to get the number of spanning trees, where n is the number of nodes. Thus, we can conclude that the spanning trees are a subset of connected graph G and disconnected graphs do not have spanning tree. Also a single graph can have more than one spanning tree.
 
-![tree11]({{ "/assets/img/sample/spanning.png" | relative_url }})
+![tree11]({{ "/assets/img/sample/spanning.PNG" | relative_url }})
 
 Properties of spanning tree:
 
@@ -156,6 +158,6 @@ Heap: is a special case of a balanced binary tree data structure where the root-
 
 - The max-heap is where the value of the root node is greater than or equal to either of its children. Best demonstrated with a diagram
 
-![tree12]({{ "/assets/img/sample/heap.png" | relative_url }})
+![tree12]({{ "/assets/img/sample/heap.PNG" | relative_url }})
 
 ## Trie
