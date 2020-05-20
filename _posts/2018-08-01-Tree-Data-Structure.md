@@ -79,15 +79,15 @@ Search operation: Whenever an element is to be searched, start searching from th
 
 Traversing is the process of searching the nodes on a tree. We traverse a tree to search or locate a given item or key in the tree or print all the values it contains. There are three ways to traverse a tree
 
--	In order traversal: As the name suggests, you take the leftmost subtree, then the next tree, in this case the root node, then the right subtree. In other words, the left subtree is visited first, then the root and later the right subtree. The output will produce sorted key values in an ascending order. D → B → E → A → F → C → G
+-	In order traversal: As the name suggests, you take the leftmost subtree, then the next tree, in this case the root node, then the right subtree. In other words, the left subtree is visited first, then the root and later the right subtree. The output will produce sorted key values in an ascending order. D → B → E → A → F → C → G.
 
 ![tree2]({{ "/assets/img/sample/2.PNG" | relative_url }})
 
--	Pre-order traversal: As the name suggests, you visit the root firstm then the left-subtree and its children, the right subtree and its children. In other words, The root node is visited first, then the left subtree and finally the right subtree. A → B → D → E → C → F → G
+-	Pre-order traversal: As the name suggests, you visit the root firstm then the left-subtree and its children, the right subtree and its children. In other words, The root node is visited first, then the left subtree and finally the right subtree. A → B → D → E → C → F → G.
 
 ![tree3]({{ "/assets/img/sample/pre_order.PNG" | relative_url }})
 
--	Post-order traversal: The leafs are visited first then the root of that (sub)tree. First, we traverse the left subtree, then the right subtree and finally the root node. It visits all the leafs before going into the root. D → E → B → F → G → C → A
+-	Post-order traversal: The leafs are visited first then the root of that (sub)tree. First, we traverse the left subtree, then the right subtree and finally the root node. It visits all the leafs before going into the root. D → E → B → F → G → C → A.
 
 ![tree4]({{ "/assets/img/sample/post_order.PNG" | relative_url }})
 
@@ -150,7 +150,7 @@ Red Black Trees are used in most of the language libraries like map, multimap, m
 
 The AVL trees are more balanced compared to Red-Black Trees, but they may cause more rotations during insertion and deletion. So if your application involves many frequent insertions and deletions, then Red Black trees should be preferred. And if the insertions and deletions are less frequent and search is a more frequent operation, then AVL tree should be preferred over Red-Black Tree.
 
-Check visualization here for practice https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
+Check visualization here for practice https://www.cs.usfca.edu/~galles/visualization/RedBlack.html.
 
 ![tree11]({{ "/assets/img/sample/blacktree.png" | relative_url }})
 
@@ -183,7 +183,7 @@ Heap: is a special case of a balanced binary tree data structure where the root-
 
 - The min-heap is where the value of the root node is less than or equal to either of its children.
 
-- The max-heap is where the value of the root node is greater than or equal to either of its children. Best demonstrated with a diagram
+- The max-heap is where the value of the root node is greater than or equal to either of its children. Best demonstrated with a diagram.
 
 ![tree13]({{ "/assets/img/sample/heap.PNG" | relative_url }})
 
