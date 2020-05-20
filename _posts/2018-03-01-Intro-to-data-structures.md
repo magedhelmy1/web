@@ -3,7 +3,7 @@ title: What are Data Structures ?
 author: Maged Helmy
 date: 2018-03-01 14:00:00 +0100
 categories: [Blogging, Articles]
-tags: [Tutorial]
+tags: [data_structure_and_algorithms]
 ---
 
 ## Data Structure Introduction:
