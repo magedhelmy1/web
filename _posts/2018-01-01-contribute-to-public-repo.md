@@ -1,8 +1,8 @@
 ---
 title: Contribute to Public Repo
 author: Maged Helmy
-date: 2019-07-08 14:00:00 +0100
-categories: [Others, Articles]
+date: 2018-01-01 14:00:00 +0100
+categories: [Others, General Articles]
 tags: [tutorial]
 ---
 

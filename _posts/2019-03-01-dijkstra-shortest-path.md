@@ -1,9 +1,9 @@
 ---
 title: Dijkstra Shortest Path
 author: Maged Helmy
-date: 2018-11-01 14:00:00 +0100
+date: 2019-03-01 14:00:00 +0100
 categories: [Blogging, Computer Science]
-tags: [data_structure_and_algorithms]
+tags: [algorithms]
 ---
 
 Shortest path by Dijkstra: The goal is to find the shortest path between two vertices. The objective is to find the shortest path from the starting vertices to any vertices. An example of greedy algorithms since we select the shortest distance every time. It makes local optimum decisions in the hope to make a good global optimum.

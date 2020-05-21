@@ -1,8 +1,8 @@
 ---
 title: Learning How to Learn
 author: Maged Helmy
-date: 2019-02-13 11:00:00 +0100
-categories: [Others, Articles]
+date: 2018-02-01 11:00:00 +0100
+categories: [Others, General Articles]
 tags: [studying_strategies]
 ---
 

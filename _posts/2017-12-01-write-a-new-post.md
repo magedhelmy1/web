@@ -2,7 +2,7 @@
 title: Writing a New Post
 author: Cotes Chung
 date: 2017-12-01 14:10:00 +0800
-categories: [Others, Articles]
+categories: [Others, General Articles]
 tags: [tutorial]
 ---
 

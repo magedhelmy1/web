@@ -1,9 +1,9 @@
 ---
 title: Sorting Techniques
 author: Maged Helmy
-date: 2020-05-09 14:00:00 +0100
+date: 2019-08-01 14:00:00 +0100
 categories: [Blogging, Computer Science]
-tags: [data_structure_and_algorithms]
+tags: [algorithms]
 ---
 
 ## Sorting Techniques
