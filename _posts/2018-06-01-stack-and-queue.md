@@ -2,7 +2,7 @@
 title: Stack and Queue
 author: Maged Helmy
 date: 2018-06-01 14:00:00 +0100
-categories: [Blogging, Articles]
+categories: [Blogging, Computer Science]
 tags: [data_structure_and_algorithms]
 ---
 
@@ -40,7 +40,7 @@ lookup: O(1)
 Do we build Stacks with Arrays or Linked Lists ?
 - Both will work fairly well. With some advantage and disadvantage.
 - With arrays it is faster since items are next to each other, linked list are scattered all over the memory. Also they need extra spaced since they store the reference.
-- With linkedlist though, you can dynamically increase the data without having to worry bout the cost while with an array you have to double the space, and re-index when increasing your list. 
+- With linkedlist though, you can dynamically increase the data without having to worry bout the cost while with an array you have to double the space, and re-index when increasing your list.
 
 ## Queue
 

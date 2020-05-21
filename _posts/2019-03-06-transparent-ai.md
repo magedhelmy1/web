@@ -2,7 +2,7 @@
 title: Why Designing Transparent AI Matters?
 author: Maged Helmy
 date: 2019-03-06 14:00:00 +0100
-categories: [Blogging, Articles]
+categories: [Blogging, Deep Learning]
 tags: [ai]
 ---
 ## Building a fair algorithm in an unfair society  

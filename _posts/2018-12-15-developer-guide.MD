@@ -2,7 +2,7 @@
 title: A Developer Guide to Writing CL Changes
 author: Maged Helmy
 date: 2018-12-15 14:00:00 +0100
-categories: [Blogging, Articles]
+categories: [Blogging, Code Hygiene]
 tags: [developer_guide]
 ---
 ## Writing a Good ChangeList (CL) Description:

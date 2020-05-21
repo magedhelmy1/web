@@ -2,7 +2,7 @@
 title: A Code Reviewer Guide to Code Review
 author: Maged Helmy
 date: 2019-01-19 14:00:00 +0100
-categories: [Blogging, Articles]
+categories: [Blogging, Code Hygiene]
 tags: [code_reviewer_guide]
 ---
 ## Introduction
