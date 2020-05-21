@@ -194,3 +194,5 @@ There is no concept of balancing in a binary heap, since they always maintain a 
 ## Trie
 
 Trie is a specialized tree used for searching strings. The root node is empty. It can have multiple chidren and not just binary. Trie is also called prefix tree. It is useful for autocompletion and text completion.
+
+Use https://visualgo.net/en to visualize any of the algorithms

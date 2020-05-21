@@ -2,8 +2,8 @@
 title: Writing a New Post
 author: Cotes Chung
 date: 2017-12-01 14:10:00 +0800
-categories: [Blogging, Tutorial]
-tags: [react]
+categories: [Others, Articles]
+tags: [tutorial]
 ---
 
 ## Naming and Path
