@@ -177,7 +177,7 @@ class Solution:
 --------------------------
 Question:Check If N and Its Double Exist: Given an array arr of integers, check if there exists two integers N and M such that N is the double of M ( i.e. N = 2 * M).
 
-Explanation:
+Explanation: iterate through the list list, and simply check if the value exists in the list, and that it is not the same position to prevent edge cases with values of zero
 
 ```Python
 class Solution:
@@ -220,51 +220,145 @@ class Solution:
 
 ```
 --------------------------
-Question:
-Explanation:
+Question: Replace Elements with Greatest Element on Right Side: Given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1. After doing so, return the array.
+
+Explanation: two cool things happen here, first we traverse the list in reverse, witha a step of 1. And we generate two variables in the same line ```arr[i], greatest= greatest, max(greatest, arr[i])``` where the right side of the equation gets executed first, then the left side. The last value is -1, therefore it is assigned that in the first iteration. On the next iteration, the max value of the previous iteration becomes the greatest and is assigned the position arr[i]
 
 ```Python
+class Solution:
+    def replaceElements(self, arr: List[int]) -> List[int]:
+
+        greatest= -1
+        for i in range(len(arr)-1,-1,-1):
+            arr[i], greatest= greatest, max(greatest, arr[i])
+
+
+        return arr
+
+```
+--------------------------
+Question: Move Zeroes: Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+Explanation: we use two pointers, a slow runner and a fast runner. On every iteration if the value does not equal to zero we add it to the slow runner. Subtract the length of the array with the non-zero values, and add that number of zeroes to the end of the list.
+
+```Python
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        j= 0
+        for i in range(len(nums)):
+            if nums[i] != 0:
+                nums[j]= nums[i]
+                j += 1
+
+        nums[j:]= [0] * (len(nums)-j)
+
+        return nums
 
 
 ```
 --------------------------
-Question:
-Explanation:
+Question:Sort Array By Parity: Given an array A of non-negative integers, return an array consisting of all the even elements of A, followed by all the odd elements of A.
+
+Explanation: If the modulus of 2 returns 0, then it is even, and add it to the list. Keep track of all the other numbers and append them to the end of that list.
 
 ```Python
+# Two pointers, equi-directional, one slow-runner and one fast runner
+
+class Solution:
+    def sortArrayByParity(self, A: List[int]) -> List[int]:
+        j= 0
+        odd_numbers=[]
+
+        for i in range(len(A)):
+            if A[i] % 2 == 0:
+                A[j] = A[i]
+                j += 1
+
+            else:
+                odd_numbers.append(A[i])
+
+        A[j:]= odd_numbers
+
+        return A
+
+```
+
+--------------------------
+Question: Height Checker: Students are asked to stand in non-decreasing order of heights for an annual photo. Return the minimum number of students that must move in order for all students to be standing in non-decreasing order of height. Notice that when a group of students is selected they can reorder in any possible way between themselves and the non selected students remain on their seats.
+
+Explanation: We use the sorted function of python, and compare both lists, where values do not match, we iterate the counter and return the numbers of times both do not match.
+
+```Python
+class Solution:
+    def heightChecker(self, heights: List[int]) -> int:
+
+        result= 0
+        for h1,h2 in zip(heights, sorted(heights)):
+            if h1 != h2:
+                result +=  1
+
+        return result
+
 
 
 ```
 --------------------------
-Question:
-Explanation:
+Question: Third Maximum Number: Given a non-empty array of integers, return the third maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
+
+Explanation: We start by creating an empty list of 3 values. And do several if statements has shown below to cover all cases.
 
 ```Python
+class Solution:
+    def thirdMax(self, nums: List[int]) -> int:
 
+        maxima= [float("-inf")] * 3 # Create a list with 3 empty slots
+
+        for num in nums:
+            if num in maxima: #you do not have to check existing values
+                continue
+
+            if num > maxima[0]:
+                maxima= [num] + maxima[:2]
+
+            elif num > maxima[1]:
+                maxima[1:]= [num, maxima[1]]
+
+            elif num > maxima[2]:
+                maxima[2]= num
+
+        if maxima[2] != float("-inf"):
+            return maxima[2]
+
+        else:
+            return maxima[0]
 
 ```
 --------------------------
-Question:
-Explanation:
+Question: Find All Numbers Disappeared in an Array: Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once. Find all the elements of [1, n] inclusive that do not appear in this array.Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
+
+Explanation: We use the index of the value to mark its position, and turn it into negative number. Where positive numbers remain, these are the positions that are duplicated in the list. Since the list is always [1,n]
 
 ```Python
+class Solution:
+    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+        # the idea of this method is to use the numbers as their index
+        for num in nums:
+            num= abs(num) # just in case it re-visitng a negative number
+            nums[num-1]= -abs(nums[num-1])  # save it as negative in its index
+
+        # The remaning positive numbers, are those which did not have a number in the list,
+        # we return their position as the missing ones.
+
+        result = []
+        for i, num in enumerate(nums):
+            if num > 0:
+                result.append(i+1)
 
 
-```
---------------------------
-Question:
-Explanation:
-
-```Python
-
-
-```
---------------------------
-Question:
-Explanation:
-
-```Python
-
+        return result
 
 ```
 --------------------------
