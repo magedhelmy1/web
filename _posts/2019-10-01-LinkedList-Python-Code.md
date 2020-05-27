@@ -200,35 +200,118 @@ class Solution:
 
 ```
 --------------------------
-Question:
-Explanation:
+Question:Reverse a singly linked list.
+
+Input: 1->2->3->4->5->NULL
+Output: 5->4->3->2->1->NULL
+
+A linked list can be reversed either iteratively or recursively. Could you implement both?
+
+Explanation: The first thing we do is create a temprorily variable to store the pointer of the next value using `next= head.next`, we later point this next to the head `head= next`. We then point the the head.next to the previous value `head.next= prev` so we can reverse the arrows. We then point the prev to the current head.
 
 ```Python
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+
+        prev= None
+
+        # we flip the orientation of the arrow to reverse the list
+        while head:
+            next= head.next # temp variable to keep track of what is suppose to be next
+            head.next= prev # We point the head.next to the prev value
+            prev= head # We update the prev value to be the current head
+            head= next # We update the head to point next, which was the temp value we created
+
+        reversed = prev
+        return reversed
 
 
 ```
 --------------------------
-Question:
+Question:   Remove Linked List Elements
+
 Explanation:
 
 ```Python
+class Solution:
+    def removeElements(self, head: ListNode, val: int) -> ListNode:
 
+        dummy = ListNode(None)
+        dummy.next = head
+
+        prev = dummy
+        curr = head
+
+        while curr:
+
+            if curr.val == val:
+                prev.next = curr.next
+
+            else:
+                prev = curr
+
+            curr = curr.next
+
+        return dummy.next
 
 ```
 --------------------------
-Question:
+Question:   Odd Even Linked List
+
 Explanation:
 
 ```Python
+class Solution:
+    def oddEvenList(self, head: ListNode) -> ListNode:
 
+        even_head= ListNode(None)
+        even= even_head
+
+        odd_head= ListNode(None)
+        odd= odd_head
+
+        while head:
+            odd.next= head
+            odd= odd.next
+            even.next= head.next
+            even= even.next
+
+            head= head.next.next if even else None
+
+        odd.next= even_head.next
+        return odd_head.next
 
 ```
 --------------------------
-Question:
+Question:   Palindrome Linked List
+
 Explanation:
 
 ```Python
+class Solution:
+    def isPalindrome(self, head: ListNode) -> bool:
+        fast= head
+        slow= head
+        rev= None
+        tmp_slow= None
 
+        while fast and fast.next:
+            fast= fast.next.next
+            tmp_slow= slow.next
+            slow.next= rev
+            rev= slow
+            slow= tmp_slow
+
+        if fast:
+            slow= slow.next
+
+        while slow:
+            if slow.val != rev.val:
+                return False
+            slow= slow.next
+            rev= rev.next
+
+        return True
 
 ```
 --------------------------
